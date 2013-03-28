@@ -1,0 +1,61 @@
+﻿<HTML>
+<HEAD>
+</HEAD>
+
+
+<style type="text/css">
+input[type=text]{
+  border:1px solid black;
+}
+ [name=entry.0.single]{
+  background:blue;
+}
+
+input[type=submit]{
+ opacity:0.3;
+}
+input:checked ~ input[type=submit]{
+    opacity: 1;
+  }
+</style>
+
+<BODY>
+<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhFdFBITDc2X3FaUGNPaGRWb29mNlE6MQ&ifq" method="POST">
+<H2>Contact form</h2><br>
+<hr>
+
+Hidden_id<br>
+<input type="text" name="entry.0.single" value="input"><br>
+<hr>
+gender<br>
+<input type="radio" name="entry.1.single" VALUE="girl">girl<br>
+<input type="radio" name="entry.1.single" VALUE="boy">boy<br>
+<hr>
+Hobby<BR>
+<input type="checkbox" name="entry.2.group" value="see movies">see movies<br>
+<input type="checkbox" name="entry.2.group" value="travel">travel<br>
+<input type="checkbox" name="entry.2.group" value="read">read<br>
+<input type="checkbox" name="entry.2.group" value="sing">sing<br>
+<hr>
+relationship<br>
+<select name="entry.3.group">
+ <option  value="single">Single</option>
+ <option>Dating</option>
+ <option>Married</option>
+ <option>Hard to explain</option>
+</select><br>
+<hr>
+Email<br>
+<input type="text" name="entry.4.single" value="97209039@nccu.edu.tw"><br>
+<hr>
+Comments<br>
+<textarea  rows="4" name="entry.5.single" value="good class!" ></textarea>
+<br>
+
+<input type="submit" value="提交" name="submit">
+</form>
+
+</BODY>
+</HTML>
+
+

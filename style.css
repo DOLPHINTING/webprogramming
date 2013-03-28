@@ -1,0 +1,139 @@
+.header {
+    display: inline-block;
+    padding: 15px ;
+    margin:10px 70px 0 140px;
+    font-size: 23px;
+    background-image : url(img/rainbow.png) ; no-repeat;
+	}
+#myself{
+	margin-left:40px;
+	float:left;
+		}
+#me{
+	padding:20px;
+	margin:30px;
+	font-size:18px;
+	line-height:30px;
+}
+.ss{
+	padding:5px ;
+	display:inline-block;
+	font-family:  Georgia,serif;
+}
+.education{
+	background-image : url(img/COLOR-01_03.png) ; height:95px; width:100px;
+	display:inline-block;
+   	padding:10px ;
+	vertical-align:middle;
+	display:inline-block;
+		}
+.education:hover {
+	background: url(img/COLOR-01_04.png)  no-repeat;
+		}
+div#inside{
+	background-color:#FFC991;
+	padding:20px ;
+	margin:20px;
+	border-radius:10px;
+	vertical-align:middle;
+	display:inline-block;		
+				}
+DIV#sameline {
+	margin-top:15px;
+}
+#yellow{
+	background-color:#FEFFAF;
+	padding:15px;
+	font-size:18px;
+	display:inline-block;
+	margin:15px;
+	border-radius:10px;
+	vertical-align:middle;
+}
+.club{
+	background-image : url(img/club_03.png) ; height:95px; width:100px;
+	vertical-align:middle;
+	display:inline-block;
+   	padding:10px ;
+	margin-left:138px;
+}
+.club:hover {
+	background: url(img/club_04.png)  no-repeat;
+			}
+div#green{
+	padding:10px ;
+	font-size:18px;
+	display:inline-block;
+	margin:20px;
+	background-color:#D6FFAF;
+	border-radius:10px;
+	vertical-align:middle;
+			}
+.intern{
+	background-image : url(img/intern_03.png) ; height:80px; width:80px;
+	vertical-align:middle;
+	display:inline-block;
+   	padding:20px ;
+}
+.intern:hover {
+	background: url(img/intern_04.png)  no-repeat;
+			}
+div#blue{
+	padding:10px ;
+	font-size:18px;
+	display:inline-block;
+	margin:20px;
+	background-color:#91C7FF;
+	border-radius:10px;
+	vertical-align:middle;
+			}
+.act{
+	background-image : url(img/act_03.png) ; height:80px;width:80px;
+	vertical-align:middle;
+	display:inline-block;
+   	padding:20px ;
+    margin:0px;
+}
+.act:hover {
+	background: url(img/act_04.png)  no-repeat;
+			}
+div#purple{
+	padding:10px ;
+	font-size:18px;
+	display:inline-block;
+	margin:20px;
+	background-color:#D8AFFF;
+	border-radius:10px;
+	vertical-align:middle;
+			}
+.skill{
+	background-image : url(img/skill_03.png) ; height:80px; width:80px;
+	vertical-align:middle;
+	display:inline-block;
+   	padding:20px ;
+}
+.skill:hover {
+	background: url(img/skill_04.png)  no-repeat;
+			}
+div#pink{
+	padding:10px ;
+	font-size:18px;
+	display:inline-block;
+	background-color:#FFCDE5;
+	border-radius:10px;
+	vertical-align:middle;
+	margin:20px;
+			}
+.praise{
+	background-image : url(img/praise_03.png) ; height:80px; width:80px;
+	vertical-align:middle;
+	display:inline-block;
+   	padding:20px ;
+	margin:10px 0 0 125px;
+}
+.praise:hover {
+	background: url(img/praise_04.png)  no-repeat;
+			}
+div#art {
+        display: inline;
+	}
