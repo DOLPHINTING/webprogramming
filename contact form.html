@@ -1,9 +1,33 @@
 ﻿<HTML>
 <HEAD>
+<meta charset="utf-8" />
 </HEAD>
 
 
 <style type="text/css">
+.header {
+    display: inline-block;
+    padding: 15px ;
+    margin:0px 20px 0 0px;
+    font-size: 23px;
+    text-decoration :none;
+  }
+a:link {color:#000000; text-decoration:none;} 
+a:visited {color:#0000FF; text-decoration:none;} 
+a:hover {font-size:30; color:#FF3366; text-decoration:none;} 
+a:active {color:#FF00FF; text-decoration:none;}	
+
+#first{
+    width: 500px;
+    padding: 10px ;
+	
+}
+.second{
+   padding: 10px ;
+   display:block;
+   border-style: solid dotted dashed ;
+   background-color:#CCFFFF;
+}
 input[type=text]{
   border:1px solid black;
 }
@@ -21,22 +45,30 @@ input:checked ~ input[type=submit]{
 
 <BODY>
 <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhFdFBITDc2X3FaUGNPaGRWb29mNlE6MQ&ifq" method="POST">
-<H2>Contact form</h2><br>
-<hr>
+<div >
+<div class="header" > <a href="cv.html">About me</a></div>
+<div class="header" >Protfolio</div>
+<div class="header" >Contact Form</div>  
+</div>
 
-Hidden_id<br>
-<input type="text" name="entry.0.single" value="input"><br>
-<hr>
+<div id="first">
+<div class="second">Hidden_id<br>
+<input type="text" name="entry.0.single" value="97209039"><br>
+</div>
+<div class="second">
 gender<br>
 <input type="radio" name="entry.1.single" VALUE="girl">girl<br>
 <input type="radio" name="entry.1.single" VALUE="boy">boy<br>
-<hr>
+</div>
+<div class="second">
 Hobby<BR>
 <input type="checkbox" name="entry.2.group" value="see movies">see movies<br>
 <input type="checkbox" name="entry.2.group" value="travel">travel<br>
 <input type="checkbox" name="entry.2.group" value="read">read<br>
 <input type="checkbox" name="entry.2.group" value="sing">sing<br>
-<hr>
+</div>
+
+<div class="second">
 relationship<br>
 <select name="entry.3.group">
  <option  value="single">Single</option>
@@ -44,18 +76,21 @@ relationship<br>
  <option>Married</option>
  <option>Hard to explain</option>
 </select><br>
-<hr>
+</div>
+
+<div class="second">
 Email<br>
 <input type="text" name="entry.4.single" value="97209039@nccu.edu.tw"><br>
-<hr>
+</div>
+
+<div class="second">
 Comments<br>
 <textarea  rows="4" name="entry.5.single" value="good class!" ></textarea>
 <br>
-
 <input type="submit" value="提交" name="submit">
+</div>
+</div>
 </form>
 
 </BODY>
 </HTML>
-
-
